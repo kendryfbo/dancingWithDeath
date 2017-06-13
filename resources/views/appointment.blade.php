@@ -42,7 +42,11 @@
 				<div class="form-group row ">
 					<label class="col-2 col-form-label">Select Date:</label>
 					<div class="col-3">
-						<input class="form-control" type="date" v-model="date" @change="getAvailableHours">
+						<input class="form-control" type="date" v-model="date">
+					</div>
+
+					<div class="col-1">
+						<button type="button" class="btn btn-primary" @click="getAvailableHours">Find</button>
 					</div>
 
 					<label class="col-1 col-form-label">Hour:</label>
