@@ -59,7 +59,7 @@ var app = new Vue({
                 return;
             }
 
-            var url='/api/appointments/';
+            var url='/api/appointments';
 
             axios.post(url,{
                 name: this.name,
